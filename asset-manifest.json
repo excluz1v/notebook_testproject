@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/notebook_testproject/static/css/main.a97918ff.chunk.css",
+    "main.js": "/notebook_testproject/static/js/main.1d3aa820.chunk.js",
+    "main.js.map": "/notebook_testproject/static/js/main.1d3aa820.chunk.js.map",
+    "runtime-main.js": "/notebook_testproject/static/js/runtime-main.4a8cec4f.js",
+    "runtime-main.js.map": "/notebook_testproject/static/js/runtime-main.4a8cec4f.js.map",
+    "static/js/2.3b9214c3.chunk.js": "/notebook_testproject/static/js/2.3b9214c3.chunk.js",
+    "static/js/2.3b9214c3.chunk.js.map": "/notebook_testproject/static/js/2.3b9214c3.chunk.js.map",
+    "static/js/3.9b7f6074.chunk.js": "/notebook_testproject/static/js/3.9b7f6074.chunk.js",
+    "static/js/3.9b7f6074.chunk.js.map": "/notebook_testproject/static/js/3.9b7f6074.chunk.js.map",
+    "index.html": "/notebook_testproject/index.html",
+    "static/css/main.a97918ff.chunk.css.map": "/notebook_testproject/static/css/main.a97918ff.chunk.css.map",
+    "static/js/2.3b9214c3.chunk.js.LICENSE.txt": "/notebook_testproject/static/js/2.3b9214c3.chunk.js.LICENSE.txt",
+    "static/media/Functional.module.css": "/notebook_testproject/static/media/add_icon.6a67072c.svg",
+    "static/media/iconfinder_arrow-back_326518.944d7d84.svg": "/notebook_testproject/static/media/iconfinder_arrow-back_326518.944d7d84.svg",
+    "static/media/iconfinder_arrow-forward_326527.df6caf68.svg": "/notebook_testproject/static/media/iconfinder_arrow-forward_326527.df6caf68.svg",
+    "static/media/iconfinder_ninja-simple_479476.d7054a12.svg": "/notebook_testproject/static/media/iconfinder_ninja-simple_479476.d7054a12.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a8cec4f.js",
+    "static/js/2.3b9214c3.chunk.js",
+    "static/css/main.a97918ff.chunk.css",
+    "static/js/main.1d3aa820.chunk.js"
+  ]
+}
