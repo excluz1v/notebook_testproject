@@ -9,9 +9,9 @@ ReactDOM.render(
     domain={domain}
     clientId={clientId}
     // для gh-pages
-    redirectUri="https://excluz1v.github.io/notebook_testproject"
+    //redirectUri="https://excluz1v.github.io/notebook_testproject"
     // Для локалхоста
-    // redirectUri={window.location.origin}
+     redirectUri={window.location.origin}
     audience={`https://${domain}/api/v2/`}
     scope="read:current_user update:current_user_metadata"
     useRefreshTokens={true}
