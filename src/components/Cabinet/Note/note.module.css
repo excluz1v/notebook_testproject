@@ -1,0 +1,96 @@
+.note {
+  border: 1px solid #fff;
+  position: relative;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 25%;
+  margin-right: 1rem;
+  box-sizing: border-box;
+  height: 10rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.note__title {
+  border: none;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.note__date {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 1rem;
+}
+.note__body,
+.note__date,
+.note__timeAgo {
+  color: grey;
+}
+.note__timeAgo {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+.note textarea {
+  background-color: inherit;
+  color: #fff;
+  max-height: 7rem;
+  width: 100%;
+  resize: vertical;
+  min-height: 3rem;
+}
+.editMode {
+  height: auto;
+}
+.changeButton,
+.deleteButton {
+  background-size: cover;
+  width: 1.5rem;
+  height: 1.5rem;
+  outline: none;
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  bottom: 1rem;
+}
+.changeButton {
+  background-image: url("../../../images/change-pencil.png");
+  right: 3rem;
+}
+.deleteButton {
+  background-image: url("../../../images/delete.png");
+  right: 1rem;
+}
+.button__container {
+  display: flex;
+  justify-content: space-between;
+}
+.save {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+@media (max-width: 1920px) {
+  .note {
+    max-width: calc(25% - 1rem);
+  }
+}
+@media (max-width: 1440px) {
+  .note {
+    width: 30%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 960px) {
+  .note {
+    width: calc(50% - 1rem);
+    max-width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .note {
+    width: calc(100% - 1rem);
+    max-width: 100%;
+  }
+}

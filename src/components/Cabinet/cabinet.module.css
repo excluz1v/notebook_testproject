@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    height: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+}
